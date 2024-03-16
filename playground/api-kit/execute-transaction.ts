@@ -54,7 +54,7 @@ async function main() {
     const contractReceipt = await txResponse.transactionResponse?.wait()
 
     console.log('Transaction executed.')
-    console.log('- Transaction hash:', contractReceipt?.transactionHash)
+    console.log('- Transaction hash:', contractReceipt)
   } else {
     console.log('Transaction invalid. Transaction was not executed.')
   }
