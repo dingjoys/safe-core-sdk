@@ -45,8 +45,8 @@ async function main() {
   // Create transaction
   const safeTransactionData: SafeTransactionDataPartial = {
     to: '0xc53bdD8865cf9f77170474B9985A2f9f7E5a8F90',
-    value: '0', // 1 wei
-    data: '0x951b6c02000000000000000000000000f893b8ad02b281a49a99235d854bfb0f9625ac95000000000000000000000000622ee91c3b4841c54670120948cd91c2603353a2',
+    value: '10000000000', // 1 wei
+    data: '0x951b6c0200000000000000000000000018fbda434458e031abb93948ab0f01746396e87d000000000000000000000000622ee91c3b4841c54670120948cd91c2603353a2',
     operation: OperationType.Call
   }
   const safeTransaction = await safe.createTransaction({ transactions: [safeTransactionData] })
