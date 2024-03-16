@@ -17,10 +17,10 @@ interface Config {
 }
 
 const config: Config = {
-  RPC_URL: 'https://rpc.ankr.com/eth_goerli',
-  DEPLOYER_ADDRESS_PRIVATE_KEY: '<DEPLOYER_ADDRESS_PRIVATE_KEY>',
+  RPC_URL: 'https://maximum-spring-daylight.base-sepolia.quiknode.pro/f80c89e1e8f03bdb4eea77aa68bf8546d8862cc5/',
+  DEPLOYER_ADDRESS_PRIVATE_KEY: 'e8bf34d06d398fa2998c1ec84e7e139f920d256eb43f20e8a9939f35f214bd7c',
   DEPLOY_SAFE: {
-    OWNERS: ['OWNER_ADDRESS'],
+    OWNERS: ['0x622ee91C3b4841C54670120948Cd91c2603353A2'],
     THRESHOLD: 1, // <SAFE_THRESHOLD>
     SALT_NONCE: '150000',
     SAFE_VERSION: '1.3.0'
