@@ -43,8 +43,13 @@ async function main() {
     chainId: config.CHAIN_ID
   })
 
+
+  console.log(config.SAFE_TX_HASH)
+
   // Get the transaction
   const transaction = await service.getTransaction(config.SAFE_TX_HASH)
+
+  console.log(transaction)
   // const transactions = await service.getPendingTransactions()
   // const transactions = await service.getIncomingTransactions()
   // const transactions = await service.getMultisigTransactions()
