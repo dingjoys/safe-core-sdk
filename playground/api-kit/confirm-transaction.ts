@@ -19,7 +19,7 @@ const config: Config = {
   SIGNER_ADDRESS_PRIVATE_KEY: 'e8bf34d06d398fa2998c1ec84e7e139f920d256eb43f20e8a9939f35f214bd7c',
   SAFE_ADDRESS: '0x559527a6D82Ac336821F2082c1cda49A4eB63588',
   TX_SERVICE_URL: 'https://safe-transaction-goerli.safe.global/', // Check https://docs.safe.global/safe-core-api/available-services
-  SAFE_TX_HASH: '0x68e805a953646753fa1f327798f0c63254b240e41aea477e6bedf40464ef384a'
+  SAFE_TX_HASH: '0x7aca6c44e1becf24fc42e596f0bbe4a4470d77226f556352d58837a70e4406c4'
 }
 
 async function main() {
