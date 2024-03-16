@@ -14,12 +14,13 @@ interface Config {
 }
 
 const config: Config = {
-  CHAIN_ID: 5n,
-  RPC_URL: 'https://rpc.ankr.com/eth_goerli',
-  SIGNER_ADDRESS_PRIVATE_KEY: '<SIGNER_ADDRESS_PRIVATE_KEY>',
-  SAFE_ADDRESS: '<SAFE_ADDRESS>',
+  
+  CHAIN_ID: BigInt(84532),
+  RPC_URL: "https://maximum-spring-daylight.base-sepolia.quiknode.pro/f80c89e1e8f03bdb4eea77aa68bf8546d8862cc5/",
+  SIGNER_ADDRESS_PRIVATE_KEY: 'e8bf34d06d398fa2998c1ec84e7e139f920d256eb43f20e8a9939f35f214bd7c',
+  SAFE_ADDRESS: '0x559527a6D82Ac336821F2082c1cda49A4eB63588',
   TX_SERVICE_URL: 'https://safe-transaction-goerli.safe.global/', // Check https://docs.safe.global/safe-core-api/available-services
-  SAFE_TX_HASH: '<SAFE_TX_HASH>'
+  SAFE_TX_HASH: '0x68e805a953646753fa1f327798f0c63254b240e41aea477e6bedf40464ef384a'
 }
 
 async function main() {
